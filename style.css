@@ -1,0 +1,144 @@
+/* Whenever you make a website, you do this 4 lines of code.  We tell the website 
+that form the starting the border box will start from 0. */
+/* Never forget this lines fo code whenever making a website. */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 136, 72);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.links {
+    /* Text decoration is exactly what it say-it adds decoration 
+    to the text. */
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(17, 17, 66);
+}
+
+.links:hover { 
+    color: rgb(238, 255, 0);
+}
+
+img {
+    height: 300px;
+    width: 475px;
+}
+
+.tiger_lake {
+    border: 0.5rem double palevioletred;
+}
+
+.huge_text {
+    font-size: 2rem;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.tiger_logo {
+    height: 75px;
+    width: 75px;
+}
+
+.killed{   
+    border: 2px solid darkmagenta;
+    background-color: rgb(254, 198, 216);
+}
+
+.medium_text {
+    font-size: 1rem;
+}
+
+.baby_tiger {
+    border-radius: 15%;
+}
+
+.border {
+    border: 0.5rem outset rgb(21, 3, 76);
+}
+
+.bg_color {
+    background-color: rgb(255, 171, 76)
+}
+
+.learn a {
+    color: black;
+    text-decoration: none;
+}
+
+.big {
+    height: 150px;
+    width: 300px;
+}
+
+.conservation {
+    border: 4px solid rgb(47, 158, 255);
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.conservation p {
+    font-size:  1.3rem;
+}
+
+.extra {
+    width: 50rem;
+    height: 11.5rem;
+}
+
+.needed {
+    width: 50rem;
+    height: 16rem;
+}
+
+.section {
+    padding-left: 1rem;
+}
+
+.section ol {
+    padding-left: 2rem;
+}
+
+.section ul {
+    padding-left: 2rem;
+}
+
+.crazy input {
+    border: 2px solid rgb(10, 18, 37);
+    margin: 0 1rem;
+}
+
+.hi {
+    padding-top: 0.3rem;
+}
+
+.world {
+    height: 27rem;
+    width: 17rem;
+}
+
+.change {
+    border: 2px solid rgb(0, 55, 123);
+    background-color: rgb(191, 222, 255);
+}
+
+.x {
+    font-size: 10rem;
+}
